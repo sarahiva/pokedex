@@ -1,14 +1,8 @@
 import React from 'react';
-import { TypeIcon } from './components/atoms/TypeIcon';
-import { PokemonImage } from './components/atoms/PokemonImage';
-import { PokemonText } from './components/atoms/PokemonText';
 import { Prueba } from './Prueba';
-import { PokemonType } from './components/molecules/PokemonType';
 
 import pika from './pika.png';
-import { PokemonData } from './components/molecules/PokemonData';
-import { CardHeader } from './components/molecules/CardHeader';
-import { CardBody } from './components/molecules/CardBody';
+
 import { PokemonCard } from './components/organisms/PokemonCard';
 
 export const App = () => {
@@ -27,6 +21,3 @@ export const App = () => {
         </div>
     )
 }
-
-/**<CardHeader image={pika} pokeName='Pikachu' tipo='Agua' /> *
- * <CardBody poder='Poder N' valor='44.12' atributo='PESO' />*/

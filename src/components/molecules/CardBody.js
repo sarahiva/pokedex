@@ -8,8 +8,8 @@ export const CardBody = ({poder, valor, atributo}) => {
     return (
         <div className="uk-card-body body-container2">
             <div className="power-container2">
-                <PokemonText  style='medium-text' text={poder} />
-                <PokemonText  style='medium-text' text={poder} />
+                <PokemonText  style={`medium-text`} text={poder} />
+                <PokemonText  style={`medium-text`} text={poder} />
             </div>
             <div className="data-container2 flex-inline">
                 <PokemonData valText={valor} subText={atributo} />
