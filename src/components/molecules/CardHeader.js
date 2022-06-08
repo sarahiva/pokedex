@@ -1,19 +1,18 @@
-import React from 'react';
 import { PokemonImage } from '../atoms/PokemonImage';
 import { PokemonText } from '../atoms/PokemonText';
-
-import './molecules.css';
 import { PokemonType } from './PokemonType';
+import './molecules.css';
 
-export const CardHeader = ({image, pokeName, tipo }) => {
+export const CardHeader = ({pImage, pName, pTypes }) => {
     return (
         <div className="uk-card-header header-container2">
-            <PokemonImage image={image}/>
+            <PokemonImage image={pImage} pType={pTypes[0].type.name} />
             <div className="uk-width-expand pt-15">
-                <PokemonText style="title" text={pokeName} />
+                <PokemonText style={`title`} text={pName} />
                 <div className="flex-inline">
-                    <PokemonType pokemonType={tipo} />
-                    <PokemonType pokemonType={tipo} />
+                    {
+                        pTypes.map((value,index) => <PokemonType key={index} pType={value.type.name} /> )
+                    }
                 </div>
             </div>
         </div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import './atoms.css';
 
 export const PokemonText = ({style = 'text-default', text = 'text default'}) => {

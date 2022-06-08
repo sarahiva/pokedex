@@ -1,9 +1,10 @@
 
 .image-container {
-    background-color: lightgrey;
+    background-color: #e5e7eb;
     box-shadow: 1px 1px 4px;
-    /*height: 180px;*/
-    padding: 0;
+    max-height: 150px;
+    max-width: 150px;
+    padding: 10px;
     width: 180px;
 }
 
@@ -18,23 +19,21 @@
 }
 
 .title {
-    border-bottom-style: solid;
-    border-width: 1px;
     color: black;
     font-family : Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
-    margin-left: 30px;
-    margin-right: 30px;
     text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
 }
 
 .small-text {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .medium-text {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     color: black;
 }
@@ -43,7 +42,92 @@
     margin-top: 5px;
 }
 
+.mg {
+    margin: 15px;
+}
+
 .border-null {
     padding: 0;
     margin: 0;
 }
+
+.colorIcon-normal {
+    color: #374151;
+}
+
+.colorIcon-fighting {
+    color: #b91c1c;
+}
+
+.colorIcon-flying {
+    color: #0284c7;
+}
+
+.colorIcon-poison {
+    color: #6b21a8;
+}
+
+.colorIcon-ground {
+    color: #c2410c;
+}
+
+.colorIcon-rock {
+    color: #78350f;
+}
+
+.colorIcon-bug {
+    color: #4d7c0f;
+}
+
+.colorIcon-ghost {
+    color: #4c1d95;
+}
+
+.colorIcon-steel {
+    color: #164e63;
+}
+
+.colorIcon-fire {
+    color: #ea580c;
+}
+
+.colorIcon-water {
+    color: #3b82f6;
+}
+
+.colorIcon-grass {
+    color: #166534;
+}
+
+.colorIcon-electric {
+    color: #facc15;
+}
+
+.colorIcon-psychic {
+    color: #9d174d;
+}
+
+.colorIcon-ice {
+    color: #14b8a6
+}
+
+.colorIcon-dragon {
+    color: #1e3a8a;
+}
+
+.colorIcon-dark {
+    color: #111827;
+}
+
+.colorIcon-fairy {
+    color: #d946ef;
+}
+
+.colorIcon-unknown {
+    color: #1e293b;
+}
+
+.colorIcon-shadow {
+    color: #701a75;
+}
+
