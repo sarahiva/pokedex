@@ -2,5 +2,7 @@
 
 Consumo de la API [PokéAPI](https://pokeapi.co/).
 
-Resultado en []
+
+## GitHub pages
+El ejercicio fue desplegado con ayuda de GitHub pages, puede ser consultado en ().
 
