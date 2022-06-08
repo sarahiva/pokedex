@@ -2,7 +2,6 @@
 
 Consumo de la API [PokéAPI](https://pokeapi.co/).
 
+![alt text](https://github.com/sarahiva/pokedex/blob/main/myPokedex.png)
 
-## GitHub pages
-El ejercicio fue desplegado con ayuda de GitHub pages, puede ser consultado en ().
 
