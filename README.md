@@ -6,5 +6,6 @@ siguientes o anteriores.
 
 Parte del diseño y animaciones de la vista fue creada con ayuda de [UIkit](https://getuikit.com/). 
 
+![alt text](https://github.com/sarahiva/pokedex/blob/main/myPokeApp.png)
 ## Github Pages
-El proyecto fue desplegado en (https://sarahiva.github.io/pokedex/).
+El proyecto fue desplegado en https://sarahiva.github.io/pokedex/
