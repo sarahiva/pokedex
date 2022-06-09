@@ -8,7 +8,7 @@ export const CardBody = ({pPower = 'power', pHeight = '0', pWeight = '0'}) => {
         <div className="uk-card-body body-container2">
             <div className="power-container2">
                 {
-                    pPower.map((value,index) => <PokemonText  key={index} style={`medium-text`} text={value.ability.name} />)
+                    pPower.map((value,index) => <PokemonText  key={index} style={`medium-text`} text={`*${value.ability.name}`} />)
                 }
             </div>
             <div className="data-container2 flex-inline">

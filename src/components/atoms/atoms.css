@@ -2,10 +2,9 @@
 .image-container {
     background-color: #e5e7eb;
     box-shadow: 1px 1px 4px;
-    max-height: 150px;
-    max-width: 150px;
     padding: 10px;
-    width: 180px;
+    margin-bottom: 10px;
+    width: 40%;
 }
 
 .img-pokemon{
@@ -14,14 +13,14 @@
 }
 
 .text-default {
-    font-size: 22px;
+    font-size: 14px;
     font-weight: normal;
 }
 
 .title {
     color: black;
     font-family : Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     text-decoration-line: underline;
@@ -29,11 +28,11 @@
 }
 
 .small-text {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .medium-text {
-    font-size: 22px;
+    font-size: 14px;
     font-weight: bold;
     color: black;
 }

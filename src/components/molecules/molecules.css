@@ -7,10 +7,8 @@
 
 .header-container2 {
     display: flex;
-    height: 150px;
     flex-wrap: wrap;
     padding: 0;
-    padding-bottom: 20px;
 }
 
 .flex-inline {
@@ -33,14 +31,19 @@
 
 .body-container2 {
     display: flex;
-    padding: 15px;
+    padding: 10px;
 }
 
 .power-container2 {
-    border-right: 1px solid;
-    width: 45%;
+    height: fit-content;
+    width: 50%;
+}
+
+.power-container2 p {
+    margin-block: 5px;
 }
 
 .data-container2 {
-    width: 55%;
+    border-left: 1px solid;
+    width: 50%;
 }
